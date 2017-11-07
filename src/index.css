@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
+  background-color: yellow;
+  border-style: outset;
+  border-radius: 7px;
+  margin: 30px;
+  outline: none;
+}
+
+button:active {
+  background-color: #D5E876;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.GraphBar {
+  display: flex;
+  border-bottom: 2px solid silver;
+  justify-content: flex-start;
+}
+
+.label {
+  padding-right: 10px;
+  margin: 10px 10px 10px 0;
+  text-align: center;
+
+}
+
+.value {
+  text-align: center;
+  background-color: #FFE483;
+}
+
+.App {
+  border: 5px dashed #0D82FF;
+  box-shadow: 10px 10px 5px #7E0CE8;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
